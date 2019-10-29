@@ -1,0 +1,147 @@
+Completed codepen: https://codepen.io/jlong5795/pen/pooWgOx?editors=1100   
+   
+    1. What is Semantic HTML? 
+    It is HTML that provides direct meaning to the markup (headings, image text, etc.)
+    
+    2. What is HTML used for? 
+    HTML is a markup language used to markup and prepare text documents to be displayed in web browsers.
+    
+    3. What is an attribute and where do we put it? 
+    An attribute provides some form of designation to a part of the document and should be placed in the opening tag.
+    
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    The h1 tag is a heading tag and should appear one time on a given page.
+    
+    5. Name two tags that have required attributes
+    imgage (image), anchor (a)
+    
+    6. What do we put in the head of our HTML document? 
+    You put things that the page needs to reference but not be displayed on the page like a title, or refernce to the CSS stylesheet
+    
+    7. What is an id? 
+    An id refers to a specific element on a page.
+
+    8. What elements can I add an id to? 
+    You can add an id to any element
+    
+    9. How many times can I use the same id on a page? 
+    Each id should be assigned once, but can be referenced multiple times.
+
+    10. What is a class?
+    A class is a way to refer to a group of elements that will be treated the same way.
+
+    11. What elements can I add a class to? 
+    Any element's tag can have a class added to it.
+
+    12. How many times can I use the same class on a page? 
+    You can use a class as many times as you like in a given page.
+    
+    13. How do I get my link to open in a new tab?
+    target="_blank"
+
+    14. What is the alt attribute used for? 
+    Provides a text equivalent that can be read by screenreaders etc as might be used with an IMG tag
+
+    15. How do I reference an id?
+    #idName
+
+    16. What is the difference between a section and a div
+    A section is a section in the document such as "introduction" or "about us". A div is used to group elements together to be formatted togther and means nothing beyond that.
+    
+    17. What is CSS used for? 
+    CSS is used to style HTML documents for presentation
+
+    18. How to we select an element? Example - every h2 on the page
+    h2{
+        put your changes here
+    }
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    A class is used to refer to items throughout a document that should receive treatement together such as "titles" for a blog post or "student names" on a bio page. An id is used to talk about a sigular item like the header of the page.
+    
+    20. How do we select classes in CSS?
+    .className
+
+    21. How do we select a p element with a single class of “human””?
+    p.human{
+        stuff
+    }
+
+    22. What is a parent child selector? When would this be useful? 
+    A parent child selector is when you refer to elements that appear within specified elements. Like if you want to format all images that appear within anchor tags and don't want to affect other images in that fashion.
+
+    23. How do you select all links within a div with the class of sidebar?
+    div.sidebar a{
+        stuff
+    }
+    
+    24. What is a pseudo selector?
+    It's a keyword added to a selector that refers to it in a specific state such as when a link is hovered over.
+
+    25. What do we use the change the spacing between lines?
+    line-height
+
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    
+    28. How do I add a 1px border around my div that is dotted and black?
+    div{
+        border: 1px dotted black;
+    }
+
+    29. How do I select everything on the page? 
+    *{
+
+    }
+    
+    30. How do I write a comment in CSS?
+    /* Comment goes here */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm [fileName] This is permanent and no warning or confirmation is given
+
+    34. Why should I use version control? 
+    To make revisions safer so you can revert to last working version if needed.
+
+    35. How often should I commit to github?
+    At least once per half hour or after a significant change.
+
+    36. What is the command we would use to push our repo up to github? 
+    git push
+
+    37. Walk me through Lambda's git flow. 
+    Fork the repo, add your TL as a collaborator, clone the repo (git clone address), branch the project to complete work. 
+    When finished git add ., git commit -m "message", git push
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    An inline element will appear on the same line as the content next to them. A block element will always appear on a new line.
+    
+    2. What happens when an element is positioned absolutely? 
+    When an element is positioned absolutely it will either stay relative to the page when scrolling or relative to the last absolutely placed element.
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    display: inline (not 100% sure)
+    
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    header, footer, and paragraph are block
+    spans and anchors are inline
+    buttons are inline-block
+    
+    5. In your own words, explain the box model. What is the fix for the box model? 
+    In the box model every element has a rectangular box around it. This can cause overlapping issues which can be addressed with the border-box by telling the browser to account for the border in the dimensions it's given for an element.
+
+
+   --> 
